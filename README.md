@@ -1,5 +1,6 @@
 # linux_env_setting
-with `bash` `vim` `tmux`
+just put all file to your home_dir
+support `bash` `vim` `tmux`
 
 
 # resource 
