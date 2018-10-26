@@ -27,7 +27,7 @@ set incsearch
 " Color configuration
 set bg=dark
 " color evening
-hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
+hi LineNr cterm=bold ctermfg=LightGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
 " Quick comment hasgtag #
