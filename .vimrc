@@ -5,12 +5,17 @@
 
 " basic setting
 set nu 
-set ai
+"set ai
 set cursorline
 set bg=light
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4                
+" "set showmatch                   
+set backspace=indent,eol,start  " more powerful backspacing
+
+
 
 " Set hlsearch for shift+3 shift+8 hightlight
 set hlsearch
@@ -18,7 +23,7 @@ set hlsearch
 " optional setting
 "set mouse=a
 set ruler
-set formatoptions+=r
+"set formatoptions+=r
 set history=100
 set incsearch
 " filetype indent on
@@ -27,7 +32,7 @@ set incsearch
 " Color configuration
 set bg=dark
 " color evening
-hi LineNr cterm=bold ctermfg=LightGrey ctermbg=NONE
+hi LineNr cterm=bold ctermfg=LightGray ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
 " Quick comment hasgtag #
@@ -43,6 +48,16 @@ hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 "    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
 "    autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 "augroup END
+
+
+" *****************************************************************************************************************************
+" *                                                     auto complete                                                         *
+" *****************************************************************************************************************************
+" "inoremap ( ()<LEFT> 
+" "inoremap [ []<LEFT>  
+" "inoremap { {}<LEFT> 
+" "inoremap ' ''<LEFT>
+" "inoremap " ""<LEFT> 
 
 
 " *****************************************************************************************************************************

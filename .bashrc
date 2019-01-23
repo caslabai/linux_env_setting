@@ -117,5 +117,5 @@ if ! shopt -oq posix; then
 fi
 
 # Block Official Python module path, use your own module within .local/lib
-export CAFFE_NOPY=1
-. /opt/caffe/caffe.sh
+#export CAFFE_NOPY=1
+#. /opt/caffe/caffe.sh
